@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MyFirstView : UIView
- // ez itt valami
+
+
 @end

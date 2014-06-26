@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B189FCB195C18B600BE1C22 /* TextValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextValue.h; sourceTree = "<group>"; };
 		D0CF2A18195BFDAD000237E7 /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CF2A1B195BFDAD000237E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0CF2A1D195BFDAD000237E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +127,7 @@
 				D0CF2A54195C0733000237E7 /* MyFirstView.m */,
 				D0CF2A36195BFDAE000237E7 /* Images.xcassets */,
 				D0CF2A22195BFDAD000237E7 /* Supporting Files */,
+				6B189FCB195C18B600BE1C22 /* TextValue.h */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
@@ -456,6 +458,7 @@
 				D0CF2A4F195BFDAE000237E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0CF2A50195BFDAE000237E7 /* Build configuration list for PBXNativeTarget "PlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				D0CF2A52195BFDAE000237E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

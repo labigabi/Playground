@@ -9,6 +9,7 @@
 #import "SecondViewController.h"
 #import "MyFirstView.h"
 
+
 @interface SecondViewController ()
 
 @end
@@ -21,8 +22,14 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    MyFirstView *mfv = [[MyFirstView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    MyFirstView *mfv = [[MyFirstView alloc] initWithFrame:CGRectMake(10, 80, 300, 300)];
     [self.view addSubview:mfv];
+}
+
+-(void) textWithValue{
+    ViewText *vt = [[ViewText alloc] init];
+    vt.delegate = self;
+    
 }
 
 - (void)didReceiveMemoryWarning
