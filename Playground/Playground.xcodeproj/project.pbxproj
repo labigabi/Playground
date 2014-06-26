@@ -13,7 +13,6 @@
 		D0CF2A26195BFDAE000237E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0CF2A24195BFDAD000237E7 /* InfoPlist.strings */; };
 		D0CF2A28195BFDAE000237E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF2A27195BFDAE000237E7 /* main.m */; };
 		D0CF2A2C195BFDAE000237E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF2A2B195BFDAE000237E7 /* AppDelegate.m */; };
-		D0CF2A2F195BFDAE000237E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CF2A2D195BFDAE000237E7 /* Main.storyboard */; };
 		D0CF2A32195BFDAE000237E7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF2A31195BFDAE000237E7 /* FirstViewController.m */; };
 		D0CF2A35195BFDAE000237E7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF2A34195BFDAE000237E7 /* SecondViewController.m */; };
 		D0CF2A37195BFDAE000237E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CF2A36195BFDAE000237E7 /* Images.xcassets */; };
@@ -45,7 +44,6 @@
 		D0CF2A29195BFDAE000237E7 /* Playground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Playground-Prefix.pch"; sourceTree = "<group>"; };
 		D0CF2A2A195BFDAE000237E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0CF2A2B195BFDAE000237E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D0CF2A2E195BFDAE000237E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0CF2A30195BFDAE000237E7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		D0CF2A31195BFDAE000237E7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		D0CF2A33195BFDAE000237E7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 			children = (
 				D0CF2A2A195BFDAE000237E7 /* AppDelegate.h */,
 				D0CF2A2B195BFDAE000237E7 /* AppDelegate.m */,
-				D0CF2A2D195BFDAE000237E7 /* Main.storyboard */,
 				D0CF2A30195BFDAE000237E7 /* FirstViewController.h */,
 				D0CF2A31195BFDAE000237E7 /* FirstViewController.m */,
 				D0CF2A33195BFDAE000237E7 /* SecondViewController.h */,
@@ -235,7 +232,6 @@
 			files = (
 				D0CF2A37195BFDAE000237E7 /* Images.xcassets in Resources */,
 				D0CF2A26195BFDAE000237E7 /* InfoPlist.strings in Resources */,
-				D0CF2A2F195BFDAE000237E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +282,6 @@
 				D0CF2A25195BFDAE000237E7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D0CF2A2D195BFDAE000237E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0CF2A2E195BFDAE000237E7 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D0CF2A46195BFDAE000237E7 /* InfoPlist.strings */ = {
