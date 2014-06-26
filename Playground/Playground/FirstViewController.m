@@ -44,14 +44,14 @@
 
 - (void) myButtonTapped:(UIButton*)sender{
     
-    [UIView animateWithDuration:2 animations:^{
-        sender.frame = CGRectMake(100, 300, 50, 50);
-        self.view.backgroundColor = [UIColor yellowColor];
-    }];
+//    [UIView animateWithDuration:2 animations:^{
+//        sender.frame = CGRectMake(100, 300, 50, 50);
+//        self.view.backgroundColor = [UIColor yellowColor];
+//    }];
     
     
-//    SecondViewController *sv = [SecondViewController new];
-//    [self.navigationController pushViewController:sv animated:YES];
+    SecondViewController *sv = [SecondViewController new];
+    [self.navigationController pushViewController:sv animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

@@ -21,6 +21,7 @@
 		D0CF2A40195BFDAE000237E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CF2A1F195BFDAD000237E7 /* UIKit.framework */; };
 		D0CF2A48195BFDAE000237E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0CF2A46195BFDAE000237E7 /* InfoPlist.strings */; };
 		D0CF2A4A195BFDAE000237E7 /* PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF2A49195BFDAE000237E7 /* PlaygroundTests.m */; };
+		D0CF2A55195C0733000237E7 /* MyFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF2A54195C0733000237E7 /* MyFirstView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D0CF2A45195BFDAE000237E7 /* PlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		D0CF2A47195BFDAE000237E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0CF2A49195BFDAE000237E7 /* PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundTests.m; sourceTree = "<group>"; };
+		D0CF2A53195C0733000237E7 /* MyFirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFirstView.h; sourceTree = "<group>"; };
+		D0CF2A54195C0733000237E7 /* MyFirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFirstView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				D0CF2A31195BFDAE000237E7 /* FirstViewController.m */,
 				D0CF2A33195BFDAE000237E7 /* SecondViewController.h */,
 				D0CF2A34195BFDAE000237E7 /* SecondViewController.m */,
+				D0CF2A53195C0733000237E7 /* MyFirstView.h */,
+				D0CF2A54195C0733000237E7 /* MyFirstView.m */,
 				D0CF2A36195BFDAE000237E7 /* Images.xcassets */,
 				D0CF2A22195BFDAD000237E7 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CF2A55195C0733000237E7 /* MyFirstView.m in Sources */,
 				D0CF2A35195BFDAE000237E7 /* SecondViewController.m in Sources */,
 				D0CF2A2C195BFDAE000237E7 /* AppDelegate.m in Sources */,
 				D0CF2A32195BFDAE000237E7 /* FirstViewController.m in Sources */,

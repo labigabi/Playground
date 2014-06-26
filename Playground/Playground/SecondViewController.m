@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "MyFirstView.h"
 
 @interface SecondViewController ()
 
@@ -18,8 +19,10 @@
 {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    [self.view setBackgroundColor:[UIColor yellowColor]];
+    MyFirstView *mfv = [[MyFirstView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:mfv];
 }
 
 - (void)didReceiveMemoryWarning
